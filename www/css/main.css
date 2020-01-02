@@ -6,9 +6,12 @@ html, body {
 .img-thumb {
   width: 100%;
   height: auto;
+  opacity: 0;
 }
 
 .title {
+  display: flex;
+
   font-family: "Jua", Arial, Helvetica, sans-serif;
   font-size: 4vh;
   padding: 5px 5px;
