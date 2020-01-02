@@ -1,2 +1,3 @@
-anime.timeline()
-  .add({ targets: ['.text'], translateY: '-500%', delay: anime.stagger(100) })
+anime.timeline({ easing: 'easeOutQuart', loop: true })
+  .add({ targets: ['.logo'], opacity: 0 })
+  .add({ targets: ['.logo'], opacity: 1 })

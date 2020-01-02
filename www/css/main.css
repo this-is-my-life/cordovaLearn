@@ -3,11 +3,7 @@ html, body {
   padding: 0px;
 }
 
-.render {
-  display: flex;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.logo {
+  font-family: 'Jua', sans-serif;
+  font-size: 45px;
 }
